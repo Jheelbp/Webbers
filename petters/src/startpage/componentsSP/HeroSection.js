@@ -8,8 +8,8 @@ const HeroSection = () => {
   return (
     <div className="hero-container">
       <img src={landscapeImage} alt="Landscape" className="landscape-image" />
-      <h1>PET </h1>
-      <p>A Magical Wedding</p>
+      <h1>FUR-EVER LOVE </h1>
+      <p>Where Every Paw Prints a Heartbeat.</p>
       <div className="hero-btns">
       </div>
     </div>
