@@ -4,9 +4,9 @@ import './Cards.css';
 import image1 from './imagesSP/image 1.jpeg';
 import image2 from './imagesSP/image 2.jpeg';
 import image3 from './imagesSP/image 3.jpeg';
-import image4 from './imagesSP/image 4.jpeg'
-import image5 from './imagesSP/image 5.jpeg';
-import image6 from './imagesSP/image 6.jpeg';
+import image4 from './imagesSP/image 4.jpg'
+import image5 from './imagesSP/image 5.png';
+import image6 from './imagesSP/image 6.jpg';
 
 
 const Cards = () => {
@@ -17,31 +17,31 @@ const Cards = () => {
             <div className="cards__wrapper">
                 <ul className="cards__items">
                     <CardItem  src={image1}
-                    text="Indulge in Elegance: Discover Our Exquisite Jewelry Collection!"
-                    label='Jewellery'
+                    text="Heartwarming Stories of Canine and Feline Companionship"
+                    label='Blog'
                     path='/jewellery'/>
                     <CardItem  src={image2}
-                    text="Imagine the Perfect Bridal Ensemble: Your Dream Wedding Attire Awaits!"
-                    label='Bridal Wear'
+                    text="Your One-Stop Shop for Healthy Meals and Playtime Adventures!"
+                    label='Pet Shop'
                     path='/outfit'/>
                     <CardItem  src={image3}
-                    text="Crafting Culinary Bliss for Your Unforgettable Day!"
-                    label='Catering'
+                    text="Uncovering the Most Sociable Dog Breeds for Every Lifestyle"
+                    label='Blog'
                     path='/catering'/>
                     
                 </ul>
                 <ul className="cards__items">
                     <CardItem  src={image4}
-                    text="Weddings organised by JODI JUNCTION"
-                    label='Wedding'
+                    text="Adopt a cuddly feline companion and make your home complete!"
+                    label='Adoption'
                     path='/wedding'/>
                     <CardItem  src={image5}
-                    text="TOP 5 wedding destinations in India"
-                    label='Blog'
+                    text="Meet and interact with our pet-supportive community "
+                    label='Community'
                     path='/blog'/>
                     <CardItem  src={image6}
-                    text="Envision the Perfect Venue: Your Dream Wedding Decor Awaits!"
-                    label='Decor'
+                    text="Give a furry friend a forever home and gain a loyal companion!"
+                    label='Adoption'
                     path='/shop'/>
                     
                 </ul>
