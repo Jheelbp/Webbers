@@ -19,26 +19,26 @@ const Cards = () => {
                     <CardItem  src={image1}
                     text="Heartwarming Stories of Canine and Feline Companionship"
                     label='Blog'
-                    path='/jewellery'/>
+                    path='/blog'/>
                     <CardItem  src={image2}
                     text="Your One-Stop Shop for Healthy Meals and Playtime Adventures!"
                     label='Pet Shop'
-                    path='/outfit'/>
+                    path='/shop'/>
                     <CardItem  src={image3}
                     text="Uncovering the Most Sociable Dog Breeds for Every Lifestyle"
                     label='Blog'
-                    path='/catering'/>
+                    path='/blog2'/>
                     
                 </ul>
                 <ul className="cards__items">
                     <CardItem  src={image4}
-                    text="Adopt a cuddly feline companion and make your home complete!"
-                    label='Adoption'
-                    path='/adoptcat'/>
+                    text="Nearby Locations "
+                    label='location'
+                    path='/map'/>
                     <CardItem  src={image5}
                     text="Meet and interact with our pet-supportive community "
                     label='Community'
-                    path='/blog'/>
+                    path='/no'/>
                     <CardItem  src={image6}
                     text="Give a furry friend a forever home and gain a loyal companion!"
                     label='Adoption'

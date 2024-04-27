@@ -1,0 +1,83 @@
+/* blog2.css */
+
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Container styles */
+.blog-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+.header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Main content styles */
+.main {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post {
+    margin-bottom: 30px;
+}
+
+.post-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.post-content {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Video styles */
+.post-video1 {
+    max-width: 100%; /* Adjusted to fit container */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+}

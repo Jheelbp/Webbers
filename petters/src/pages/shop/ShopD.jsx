@@ -10,7 +10,7 @@ export const ShopD = () => {
   return (
     <div className="shop">
       <div className="shopTitle">
-        <h1>DOGS</h1>
+        <h1>PETS</h1>
       </div>
      <div className="products">
         {/* Render products based on filtered products */}

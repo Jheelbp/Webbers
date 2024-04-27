@@ -10,7 +10,7 @@ import r8 from './requirements/r8.png';
 export const RPRODUCTS = [
     {
         id: 1,
-        productName: "necklace1",
+        productName: "Pedigree:Adult",
         price: 1000.0,
         productImage: r1,
         productDescription: "",
@@ -18,7 +18,7 @@ export const RPRODUCTS = [
     },
     {
         id: 2,
-        productName: "necklace2",
+        productName: "grainzero",
         price: 2000.0,
         productImage: r2,
         productDescription: "",
@@ -26,7 +26,7 @@ export const RPRODUCTS = [
     },
     {
         id: 3,
-        productName: "necklace3",
+        productName: "drools",
         price: 500.0,
         productImage: r3,
         productDescription: "",
@@ -34,7 +34,7 @@ export const RPRODUCTS = [
     },
     {
         id: 4,
-        productName: "necklace4",
+        productName: "whiskas",
         price: 20000.0,
         productImage: r4,
         productDescription: "",
@@ -42,7 +42,7 @@ export const RPRODUCTS = [
     },
     {
         id: 5,
-        productName: "necklace5",
+        productName: "mouse toy",
         price: 10000,
         productImage: r5,
         productDescription: "",
@@ -50,7 +50,7 @@ export const RPRODUCTS = [
     },
     {
         id: 6,
-        productName: "necklace6",
+        productName: "dog toy",
         price: 2000.0,
         productImage: r6,
         productDescription: "",
@@ -59,7 +59,7 @@ export const RPRODUCTS = [
     
     {
         id: 7,
-        productName: "necklace6",
+        productName: "chew toys",
         price: 2000.0,
         productImage: r7,
         productDescription: "",
@@ -67,7 +67,7 @@ export const RPRODUCTS = [
     },
     {
         id: 8,
-        productName: "necklace6",
+        productName: "chew bone",
         price: 2000.0,
         productImage: r8,
         productDescription: "",

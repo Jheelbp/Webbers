@@ -16,80 +16,80 @@ export const DPRODUCTS = [
         id: 13,
         productName: "Bella",
         productImage: cat1,
-        productDescription: "Exquisite necklace adorned with sparkling gems, perfect for special occasions."
+        productDescription: "Bella is a regal and elegant feline, with a striking beauty that commands attention wherever she goes. She moves with a dignified grace, her fur gleaming in the sunlight like spun gold."
     },
     {
         id: 14,
         productName: "Oliver",
         productImage: cat2,
-        productDescription: "Playful and fun necklace that adds a pop of color to your pet's ensemble."
+        productDescription: "Oliver is a charming and charismatic cat, with a personality as smooth as silk and eyes as bright as emeralds. He's a true gentleman, with impeccable manners and a friendly demeanor that endears him to all who meet him."
     },
     {
         id: 15,
         productName: "Max",
         productImage: cat3,
-        productDescription: "Playful and fun necklace that adds a pop of color to your pet's ensemble."
+        productDescription: "Max is a bold and adventurous cat, with a fearless spirit and a boundless curiosity. He's always on the lookout for excitement, whether it's climbing to the top of the tallest bookshelf or exploring the great outdoors."
     },
     {
         id: 16,
         productName: "Chloe",
         productImage: cat4,
-        productDescription: "Playful and fun necklace that adds a pop of color to your pet's ensemble."
+        productDescription: "Chloe is a graceful and sophisticated feline, with a beauty that rivals that of a classic Hollywood starlet. She carries herself with elegance and poise, her every movement exuding a sense of grace and refinement."
     },
     {
         id: 17,
         productName: "Lucy",
         price: 1000.0,
         productImage: d1,
-        productDescription: "Beautiful and elegant necklace for your furry friend, perfect for any occasion."
+        productDescription: "Lucy is a playful and energetic pup with a heart of gold. She loves bounding through fields, chasing after balls, and cuddling up on the couch after a long day of adventures."
     },
     {
         id: 18,
         productName: "Oliver",
         price: 2000.0,
         productImage: d2,
-        productDescription: "Stylish and chic necklace that will make your pet stand out in the crowd."
+        productDescription: "Oliver is a sophisticated and charming canine companion. He carries himself with grace and poise, earning the admiration of all who meet him."
     },
     {
         id: 19,
         productName: "Rosie",
         price: 500.0,
         productImage: d3,
-        productDescription: "Simple and classic necklace that adds a touch of sophistication to your pet's look."
+        productDescription: "Rosie is a sweetheart with a bubbly personality and a wagging tail that never stops. She spreads joy wherever she goes, with her infectious enthusiasm and boundless energy."
     },
     {
         id: 20,
         productName: "Choco",
         price: 20000.0,
         productImage: d4,
-        productDescription: "Luxurious and extravagant necklace crafted with premium materials for the discerning pet owner."
+        productDescription: "Choco is a playful and mischievous pup with a penchant for adventure. Whether he's chasing squirrels in the backyard or digging for buried treasures, he's always on the lookout for excitement."
     },
     {
         id: 21,
         productName: "Fibi",
         price: 10000,
         productImage: d5,
-        productDescription: "Exquisite necklace adorned with sparkling gems, perfect for special occasions."
+        productDescription: "Fibi is a gentle soul with a quiet grace and a heart full of love. She enjoys long walks in nature, where she can take in the sights and smells of the great outdoors."
     },
     {
         id: 22,
         productName: "Fredo",
         price: 2000.0,
         productImage: d6,
-        productDescription: "Playful and fun necklace that adds a pop of color to your pet's ensemble."
+        productDescription: "Fredo is a confident and outgoing pup with a larger-than-life personality. He's always the life of the party, with his playful antics and infectious enthusiasm."
     },
     {
         id: 23,
         productName: "Lola",
         price: 2000.0,
         productImage: d8,
-        productDescription: "Playful and fun necklace that adds a pop of color to your pet's ensemble."
+        productDescription: "Lola is a spunky and spirited pup with a personality as colorful as her coat. She's full of energy and always on the go, whether she's chasing after squirrels or playing fetch in the backyard."
     },
     {
         id: 24,
         productName: "Whiskey",
         price: 2000.0,
         productImage: d9,
-        productDescription: "Playful and fun necklace that adds a pop of color to your pet's ensemble."
+        productDescription: "Whiskey is a laid-back and easygoing pup with a love for life's simple pleasures. He enjoys lounging in the sun, taking leisurely strolls around the neighborhood, and curling up by the fire on chilly evenings."
     },
 ];
