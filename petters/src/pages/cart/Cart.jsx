@@ -1,5 +1,5 @@
 import React , {useContext }from 'react'
-import {DPRODUCTS} from '../shop/Dog-products';
+import {RPRODUCTS} from '../shop/Requirement-products';
 import {ShopContext} from '../context/shop-context';
 import {CartItem} from "../cart/cart-item"
 import "./cart.css";
@@ -13,7 +13,7 @@ export const Cart = () => {
     <div className="cart">
       <div>Your Cart Items</div>
       <div className="cartItems">
-        {DPRODUCTS.map((product)=> {
+        {RPRODUCTS.map((product)=> {
             if(cartItems[product.id]!==0){
                 return<CartItem data={product}/>;
             }

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { DPRODUCTS } from './shop/Dog-products';
+import { RPRODUCTS } from '../pages/shop/Requirement-products';
 
 function Products() {
   const [filterBudget, setFilterBudget] = useState(0);
@@ -8,9 +8,9 @@ function Products() {
     setFilterBudget(parseInt(event.target.value, 10));
   };
 
-  let filteredProducts = DPRODUCTS;
+  let filteredProducts = RPRODUCTS;
   if (filterBudget !== 0) {
-    filteredProducts = DPRODUCTS.filter(product => product.price === filterBudget);
+    filteredProducts = RPRODUCTS.filter(product => product.price === filterBudget);
   }
 
   const listItems = filteredProducts.map(product => (
