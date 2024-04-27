@@ -2,7 +2,7 @@ import React from 'react';
 import Button from './Button';
 import './HeroSection.css';
 import '../componentsSP/AppSP.css';
-import landscapeImage from './imagesSP/landscape.jpeg'; // Import the image file
+import landscapeImage from './imagesSP/dog.jpg'; // Import the image file
 
 const HeroSection = () => {
   return (

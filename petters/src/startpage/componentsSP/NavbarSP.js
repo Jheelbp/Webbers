@@ -48,18 +48,18 @@ const NavbarSP = () => {
           </Link>
         </li>
         <li className='nav-item'>
-          <Link to='/Budget' className='nav-links' onClick={closeMobileMenuu}>
-            Budget
+          <Link to='/shop' className='nav-links' onClick={closeMobileMenuu}>
+            Pet Shop
           </Link>
         </li>
         <li className='nav-item'>
-          <Link to='/shop' className='nav-links' onClick={closeMobileMenuu}>
-            Decor
+          <Link to='/community' className='nav-links' onClick={closeMobileMenuu}>
+            Community
           </Link>
         </li>
        <li className='nav-item'>
-          <Link to='/checklist' className='nav-links' onClick={closeMobileMenuu}>
-            Checklist
+          <Link to='/aboutUs' className='nav-links' onClick={closeMobileMenuu}>
+            About Us
           </Link>
         </li>
         <li>   
