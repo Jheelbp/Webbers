@@ -27,13 +27,13 @@ const Login = () => {
   return (
    <div className='formContainer'>
     <div className='formWrapper'>
-        <span className='logo'>Petters Chat</span>
+        <span className='logo'>Jodi Junction</span>
         <span className='logo'>Login</span>
         <form onSubmit={handleSubmit}>
             <input type="email" placeholder='email'/>
             <input type="password" placeholder='password'/>
 
-            <button>SignIn</button>
+            <button>Sign In</button>
         </form>
         <p>You dont have an account?<Link to="/register">Register</Link></p>
 

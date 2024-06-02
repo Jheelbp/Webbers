@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "./context/AuthContext";
 
-function App() {
+function AppChat() {
   const { currentUser } = useContext(AuthContext);
 
   const ProtectedRoute = ({ children }) => {
@@ -37,4 +37,4 @@ function App() {
   );
 }
 
-export default App;
+export default AppChat;

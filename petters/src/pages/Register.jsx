@@ -82,7 +82,7 @@ const Register = () => {
   return (
     <div className='formContainer'>
       <div className='formWrapper'>
-        <span className='logo'>Petters Chat</span>
+        <span className='logo'>Jodi Junction</span>
         <span className='title'>Register</span>
         <form onSubmit={handleSubmit}>
           <input type="text" placeholder='display name' />
@@ -99,7 +99,7 @@ const Register = () => {
             <span>Add an Avatar</span>
           </label>
           {fileError && <span className="error">{fileError}</span>}
-          <button>SignUp</button>
+          <button>Sign Up</button>
           {err && <span>Something went wrong</span>}
         </form>
         <p>You do have an account?<Link to="/login">Login</Link></p>
