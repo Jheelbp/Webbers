@@ -41,8 +41,10 @@ const Register = () => {
         setErr(true);
         return;
       }
+      console.log("before create user");
 
       const res = await createUserWithEmailAndPassword(auth, email, password);
+      console.log("after create user");
 
       const storageRef = ref(storage, displayName);
       const uploadTask = await uploadBytes(storageRef, avatar);
